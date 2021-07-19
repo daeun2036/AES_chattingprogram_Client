@@ -1,0 +1,30 @@
+﻿<Window x:Class="AES_communicationApp.ChattingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AES_communicationApp"
+        mc:Ignorable="d"
+        Title="Chatting" Height="523.5" Width="392.5" Background="#FFE4E7EB">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="textbox_msglistview" Margin="10,91,10,10" TextWrapping="Wrap" IsReadOnly="True"/>
+        <Grid Grid.Row="1" HorizontalAlignment="Right" Width="368" Height="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="textbox_send" Grid.Column="0" Margin="10,0,0,0" KeyDown="key_down" TextWrapping="Wrap"/>
+            <Button Grid.Column="1" x:Name="btn_send" Margin="10,0,10,0" Content="전송" Click="btn_send_Click"></Button>
+            
+        </Grid>
+
+        <Label Content="Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.571,0.449"/>
+        <Label Content="Room" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.571,0.449"/>
+        <TextBox x:Name="textbox_name" HorizontalAlignment="Left" Height="23" Margin="64,13,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textbox_room" HorizontalAlignment="Left" Height="23" Margin="64,44,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

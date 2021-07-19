@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES_communicationApp", "AES_communicationApp\AES_communicationApp.csproj", "{FF64A503-A406-4CF6-997E-38D0DE1F54EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF64A503-A406-4CF6-997E-38D0DE1F54EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF64A503-A406-4CF6-997E-38D0DE1F54EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF64A503-A406-4CF6-997E-38D0DE1F54EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF64A503-A406-4CF6-997E-38D0DE1F54EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19CCA94F-9A02-4036-90D3-D46CE78B3AEC}
+	EndGlobalSection
+EndGlobal
